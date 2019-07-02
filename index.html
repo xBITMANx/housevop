@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HouseVOP</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:400,700|Roboto:300&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="navbar">
+				<img src="img/logo.svg" alt="HouseVOP жилой комплекс" class="logo"></img>
+				<button class="navbar__menu-button">
+					<span></span>
+				</button>
+				<nav class="menu navbar__menu">
+					<a href="#" class="menu__link">О комплексе</a>
+					<a href="#" class="menu__link">Район</a>
+					<a href="#" class="menu__link">Каталог квартир</a>
+					<a href="#" class="menu__link">Ипотека</a>
+					<a href="#" class="menu__link">Контакты</a>
+				</nav>
+			</div>
+			<div class="hero">
+				<h1 class="hero__title">Жилой комплекс <br> в историческом центре</h1>
+				<span class="hero__mouse"></span>
+				<div class="hero__info">
+					<div class="hero__location">
+						<address class="hero__address">Наб. реки Фонтанки 10-15</address>
+					</div>
+					<div class="hero__mobile">
+						<a href="tel:88121234567" class="hero__phone">8 (812) 123-45-67</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="testimonials">
+			<div class="container">
+				<div class="testimonials-block">
+					<div class="testimonials-block__item">
+						<img src="img/testimonials/bench.svg" alt="Парк" class="testimonials-block__image">
+						<p class="testimonials-block__text">Рядом исторические <br>
+							парки и скверы</p>
+					</div>
+					<div class="testimonials-block__item">
+						<img src="img/testimonials/building.svg" alt="Жилой комплекс" class="testimonials-block__image">
+						<p class="testimonials-block__text">Полностью <br>
+							обустроенный</p>
+					</div>
+					<div class="testimonials-block__item">
+						<img src="img/testimonials/fountain.svg" alt="Фонтан" class="testimonials-block__image">
+						<p class="testimonials-block__text">10 фонтанов <br>
+							на территории</p>
+					</div>
+					<div class="testimonials-block__item">
+						<img src="img/testimonials/bicycle.svg" alt="Велосипед" class="testimonials-block__image">
+						<p class="testimonials-block__text">6 км <br>
+							велодорожек</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.testimonials -->
+		<section class="appartments">
+			<div class="container">
+				<h2 class="section-title section-title_appartments">Наши квартиры</h2>
+				<div class="appartments-block">
+					<div class="appartments-block__item">
+						<img src="img/appartments/appartment-1.jpg" alt="Лофт-1" class="appartments-block__image">
+						<span class="appartments-block__title">Лофт — 3 этажа</span>
+					</div>
+					<div class="appartments-block__item">
+						<img src="img/appartments/appartment-2.jpg" alt="Лофт-2" class="appartments-block__image">
+						<span class="appartments-block__title">Лофт — 2 этажа</span>
+					</div>
+					<div class="appartments-block__item">
+						<img src="img/appartments/appartment-3.jpg" alt="Лофт-3" class="appartments-block__image">
+						<span class="appartments-block__title">Лофт — 3 этажа</span>
+					</div>
+					<div class="appartments-block__item">
+						<img src="img/appartments/appartment-4.jpg" alt="Лофт-4" class="appartments-block__image">
+						<span class="appartments-block__title">Лофт — 2 этажа</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.appartments -->
+		<section class="cta">
+			<div class="container">
+				<div class="section-title section-title_cta">Хотите посмотреть?</div>
+				<div class="cta-block">
+					<p class="cta-block__text">
+						Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+						"рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
+						коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+					</p>
+					<form class="cta-block__form form">
+						<input type="text" class="input form__input" placeholder="Ваше имя">
+						<input type="tel" class="input form__input" placeholder="Ваш телефон">
+						<p class="footnote form__footnote">
+							*Мы никому не передаем ваши данные.
+							И не сохраняем ваш номер в базу.
+						</p>
+						<input type="submit" class="submit form__submit" value="Посмотреть район">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- /.cta -->
+		<section class="video">
+			<div class="container">
+				<div class="video-block">
+					<video class="video-block__video" width="100%" controls preload="none" poster="img/video/video-bg.png"
+						controlslist="nodownload" onclick="this.play()">
+						<source type="video/mp4" src="img/video/testvideo.mp4">
+					</video>
+				</div>
+			</div>
+		</section>
+		<!-- /.video -->
+		<section class="maps">
+			<div class="container">
+				<div class="section-title section-title_maps">Район на карте</div>
+				<div class="maps-block">
+					<div class="map">
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac207e6768b91a81ecc7d716c5af9570b08c6341aba94583f5c7c02c64e90df66&amp;source=constructor" width="100%" height="358" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.maps -->
+		<section class="cta cta_without-bg">
+			<div class="container">
+				<div class="section-title section-title_cta">Есть вопросы?</div>
+				<div class="cta-block">
+					<form class="cta-block__form form form_qna">
+						<p class="footnote form__footnote form__footnote_qna">
+							*Мы никому не передаем ваши данные.
+							И не сохраняем ваш номер в базу.
+						</p>
+						<input type="text" class="input form__input form__input_qna" placeholder="Ваше имя">
+						<input type="tel" class="input form__input form__input_qna" placeholder="Ваш телефон">
+						<input type="submit" class="submit form__submit form__submit_qna" value="Посмотреть район">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- /.cta -->
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<img src="img/logo.svg" alt="HouseVOP жилой комплекс" class="logo footer-block__logo"></img>
+				<nav class="footer-menu footer-block__menu">
+					<a href="#" class="footer-menu__link">О комплексе</a>
+					<a href="#" class="footer-menu__link">Район</a>
+					<a href="#" class="footer-menu__link">Каталог квартир</a>
+					<a href="#" class="footer-menu__link">Ипотека</a>
+					<a href="#" class="footer-menu__link">Контакты</a>
+				</nav>
+				<div class="contacts footer-block__contacts">
+					<div class="contacts__address">
+						<span>Адрес:&nbsp;</span>
+						<address>Наб. реки Фонтанки 10-15</address>
+					</div>
+					<div class="contacts__phone">
+						<span>Телефон: </span>
+						<a href="tel:88121234567">8 (812) 123-45-67</a>
+					</div>
+					<div class="contacts__work-time">
+						<span>Отдел продаж: 10:00 - 20:00</span>
+					</div>
+					<div class="contacts__email">
+						<span>E-mail: </span>
+						<a href="mailto:vip@housevip.ru" class="contacts__email-link">vip@housevip.ru</a>
+					</div>
+					<div class="contacts__socials contacts-socials">
+						<a href="#" class="contacts-socials__link"><img src="img/footer/youtube.svg" alt="youtube"></a>
+						<a href="#" class="contacts-socials__link"><img src="img/footer/vk.svg" alt="vkontakte"></a>
+						<a href="#" class="contacts-socials__link"><img src="img/footer/facebook.svg" alt="facebook"></a>
+						<a href="#" class="contacts-socials__link"><img src="img/footer/instagram.svg" alt="instagram"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>	
+	<script src="js/script.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+$(".navbar__menu-button").on("click",function(n){n.preventDefault,$(".menu").toggleClass("menu_active")}),$(".navbar__menu-button").on("click",function(n){n.preventDefault,$(".navbar__menu-button").toggleClass("navbar__menu-button_active")}),$(window).load(function(){$('input[type="tel"]').mask("+7 (999) 999-99-99")});
